@@ -3,6 +3,7 @@ Bro 2.4.1 on OpenWRT
 :date: 2016-04-07 02:21
 :author: jaredj
 :category: Security
+:tags: security
 :slug: bro-2-4-1-on-openwrt
 :status: published
 
