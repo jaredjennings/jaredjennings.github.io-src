@@ -4,7 +4,10 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Jared Jennings'
 SITENAME = u'Writing to think 2: Write harder'
-SITEURL = ''
+# SITEURL = 'http://j.agrue.info'
+# do not summarize
+#SUMMARY_MAX_LENGTH = None
+DEFAULT_PAGINATION = 5
 
 PATH = 'content'
 
@@ -33,3 +36,8 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+
+
+# for mg theme
+#THEME = 'themes/svbhack'
