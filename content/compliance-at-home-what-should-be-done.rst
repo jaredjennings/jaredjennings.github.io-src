@@ -2,7 +2,7 @@ Compliance at home: What should be done
 #######################################
 :date: 2014-03-09 02:56
 :author: jaredj
-:category: Compliance at home, Projects, Security
+:category: Compliance at home
 :tags: chef, disa, nist, puppet, security, standards
 :slug: compliance-at-home-what-should-be-done
 :status: published

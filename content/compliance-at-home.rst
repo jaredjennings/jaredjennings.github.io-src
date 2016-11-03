@@ -2,7 +2,7 @@ Compliance at home
 ##################
 :date: 2014-01-22 05:41
 :author: jaredj
-:category: Compliance at home, Projects, Security
+:category: Compliance at home
 :tags: disa, nist, security, srg, standards, stig
 :slug: compliance-at-home
 :status: published

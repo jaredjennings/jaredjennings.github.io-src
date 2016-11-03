@@ -2,7 +2,7 @@ for PAR1
 ########
 :date: 2016-02-07 05:42
 :author: jaredj
-:category: Uncategorized
+:category: Projects
 :slug: for-par1
 :status: published
 

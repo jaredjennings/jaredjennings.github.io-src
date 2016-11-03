@@ -2,7 +2,7 @@ Winning Free software
 #####################
 :date: 2015-09-19 03:01
 :author: jaredj
-:category: Uncategorized
+:category: Commentary
 :slug: winning-free-software
 :status: published
 

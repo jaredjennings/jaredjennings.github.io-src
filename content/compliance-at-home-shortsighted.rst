@@ -2,7 +2,8 @@ Compliance at home: Shortsighted
 ################################
 :date: 2014-04-05 19:54
 :author: jaredj
-:category: Compliance at home, Projects, Security
+:category: Compliance at home
+:tags: security
 :slug: compliance-at-home-shortsighted
 :status: published
 

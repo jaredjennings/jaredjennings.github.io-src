@@ -2,7 +2,8 @@ Somebodyoughta: HP 95LX + ARM
 #############################
 :date: 2014-02-04 05:57
 :author: jaredj
-:category: Somebody Oughta
+:category: Uncategorized
+:tags: somebodyoughta
 :slug: hp-95lx-arm
 :status: published
 

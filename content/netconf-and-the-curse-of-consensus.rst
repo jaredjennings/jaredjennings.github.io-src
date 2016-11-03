@@ -2,7 +2,8 @@ NETCONF and the curse of consensus
 ##################################
 :date: 2016-05-01 02:07
 :author: jaredj
-:category: Uncategorized
+:category: Commentary
+:tags: security
 :slug: netconf-and-the-curse-of-consensus
 :status: published
 

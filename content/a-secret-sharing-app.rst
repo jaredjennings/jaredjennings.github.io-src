@@ -2,7 +2,8 @@ Somebodyoughta: A secret sharing app
 ####################################
 :date: 2014-10-01 04:38
 :author: jaredj
-:category: Security, Somebody Oughta
+:category: Security
+:tags: somebodyoughta
 :slug: a-secret-sharing-app
 :status: published
 

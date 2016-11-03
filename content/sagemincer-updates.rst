@@ -2,7 +2,7 @@ sagemincer updates
 ##################
 :date: 2014-09-27 21:43
 :author: jaredj
-:category: Projects, Security
+:category: Projects
 :slug: sagemincer-updates
 :status: published
 

@@ -2,7 +2,8 @@ Somebodydid! Three-axis trackball
 #################################
 :date: 2015-04-15 15:05
 :author: jaredj
-:category: Somebody Oughta
+:category: Uncategorized
+:tags: somebodyoughta
 :slug: somebodyoughta-three-axis-trackball
 :status: published
 

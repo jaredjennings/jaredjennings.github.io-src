@@ -2,7 +2,8 @@ Somebodyoughta: Enyo + Linked Open Data
 #######################################
 :date: 2014-02-09 20:26
 :author: jaredj
-:category: Somebody Oughta
+:category: Uncategorized
+:tags: somebodyoughta
 :slug: enyo-linked-open-data
 :status: published
 

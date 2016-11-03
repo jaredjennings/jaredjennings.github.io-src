@@ -2,7 +2,7 @@ against turbo codes
 ###################
 :date: 2016-02-06 15:12
 :author: jaredj
-:category: Uncategorized
+:category: Projects
 :slug: against-turbo-codes
 :status: published
 

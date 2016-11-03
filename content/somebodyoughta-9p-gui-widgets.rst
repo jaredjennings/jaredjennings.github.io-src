@@ -2,7 +2,8 @@ Somebodyoughta: 9P + GUI widgets
 ################################
 :date: 2015-01-30 04:15
 :author: jaredj
-:category: Somebody Oughta
+:category: Uncategorized
+:tags: somebodyoughta
 :slug: somebodyoughta-9p-gui-widgets
 :status: published
 

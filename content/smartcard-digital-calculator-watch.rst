@@ -2,7 +2,8 @@ Somebodyoughta: Smartcard + digital calculator watch
 ####################################################
 :date: 2014-04-05 19:27
 :author: jaredj
-:category: Somebody Oughta
+:category: Uncategorized
+:tags: somebodyoughta
 :slug: smartcard-digital-calculator-watch
 :status: published
 

@@ -2,7 +2,8 @@ CMITS is public!
 ################
 :date: 2015-03-24 02:45
 :author: jaredj
-:category: Compliance at home, Security
+:category: Compliance at home
+:tags: security
 :slug: cmits-is-public
 :status: published
 

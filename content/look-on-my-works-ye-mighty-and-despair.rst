@@ -2,7 +2,7 @@ Look on my works, ye mighty, and despair
 ########################################
 :date: 2014-06-01 20:20
 :author: jaredj
-:category: Uncategorized
+:category: Commentary
 :slug: look-on-my-works-ye-mighty-and-despair
 :status: published
 
