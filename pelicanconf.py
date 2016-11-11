@@ -15,6 +15,8 @@ TIMEZONE = 'US/Eastern'
 
 DEFAULT_LANG = u'en'
 
+STATIC_PATHS = ['images', '']
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
