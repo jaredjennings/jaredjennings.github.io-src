@@ -16,6 +16,7 @@ TIMEZONE = 'US/Eastern'
 DEFAULT_LANG = u'en'
 
 STATIC_PATHS = ['images', '']
+IGNORE_FILES = ['.#*', '#*', '*~']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
