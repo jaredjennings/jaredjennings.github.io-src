@@ -29,3 +29,5 @@ cyanostracon is the attempt to invert control in this fashion. It's
 slow going but it's taking shape, based on David Beazley's `curio
 <https://github.com/dabeaz/curio>`_ library. It's not hosted anywhere
 yet, but it'll probably go up on GitLab one of these days.
+
+-- Edited to add: `cyanostracon is on GitLab <https://gitlab.com/jaredjennings/cyanostracon>`_.
