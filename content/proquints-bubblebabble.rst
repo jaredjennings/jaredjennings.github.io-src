@@ -24,5 +24,5 @@ proquint string start with '0q-'. Proquints are used in `Upspin
 
 There's a pretty good `Hacker News thread
 <https://news.ycombinator.com/item?id=8751302>`_ mentioning proquints
-and also Abbrase (`from rmmh <http://rmmh.github.io/abbrase/>_`, `a
-fork from bcaller <http://bcaller.github.io/abbrase/>_`).
+and also Abbrase (`from rmmh <http://rmmh.github.io/abbrase/>`_, `a
+fork from bcaller <http://bcaller.github.io/abbrase/>`_).
