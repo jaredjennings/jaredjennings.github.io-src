@@ -3,7 +3,7 @@ router bellyache
 :date: 2017-04-21 23:22
 :author: jaredj
 :category: Commentary
-:tag: somebodyoughta
+:tags: somebodyoughta
 :slug: router-bellyache
 :status: published
 
