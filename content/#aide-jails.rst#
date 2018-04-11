@@ -1,0 +1,14 @@
+aide and jails
+##############
+:date: 2017-05-05 00:12
+:author: jaredj
+:category: Commentary
+:tags: somebodyoughta
+:slug: aide-and-jails
+:status: published
+
+FreeBSD has jails, and it has several commands that take a ``-j``
+switch. Like if you want to start and stop services in a jail, you can
+``service -j 3 stop httpd`` or so. Or ``pkg -j 3 install
+myfunpackage``. I just got AIDE, whose configuration file has a bunch
+of pathnames in it, like ``/etc`` or ``/usr/bin``. There's 
