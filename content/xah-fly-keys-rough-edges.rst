@@ -33,7 +33,7 @@ Here's a list of things I want to improve about xah-fly-keys in spring 2018. (In
 
  4. ``e`` and ``r`` do something different if the mark is set, but
     ``x`` and ``c`` only do something different if the mark is
-    activated.
+    activated. *EDIT*: everything works right in transient-mark-mode.
 
 To really do this up right, I need to record all my commands and see
 what I do most often—i.e., do the same legwork Xah did. The immediate
