@@ -39,3 +39,9 @@ So that's why I'm quitting NetBSD at this time. Maybe I'll be back,
 but you see I've just finished this 3-D printer and I have to build
 its firmware (which has no Makefile so I have to use Arduino)
 post-haste. Back to FreeBSD.
+
+EDITED TO ADD: FreeBSD didn't work for Arduino either and I went back
+to Debian. Since then my Kerberos server, which was running Debian on
+a Raspberry Pi, died. I replaced it with NetBSD. I had to install
+OpenLDAP from pkgsrc, but I was pleased to find that the Kerberos in
+the base system serves fine.
