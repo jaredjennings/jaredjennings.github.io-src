@@ -167,6 +167,30 @@ an attractive website. Chosen.
 Rejected alternatives: static NFS, Gluster.
 
 
+Rook issues
+-----------
+
+Having configured Rook's cluster.yaml to my liking, I ran into
+issues. First, the Kube cluster was initially unresponsive after first
+putting up Rook. Not sure what happened there. Now the rook-ceph-agent
+pod won't start because ``error while creating mount source path
+'/usr/libexec/kubernetes/kubelet-plugins/volume/exec': mkdir
+/usr/libexec/kubernetes: read-only file system``. This is because I'm
+using CoreOS, and its /usr is mounted read-only, I reckon. Part of the
+magic updates. I found some `guidance
+<https://github.com/rook/rook/blob/master/Documentation/tectonic.md>`_
+on running Rook on CoreOS Container Linux. Although it is intended for
+people running Tectonic Kubernetes, it has a guide for moving the
+place where the volume plugins go by modifying the systemd service
+file for the kubelet.
+
+Oh interesting, the kubelet startup as put in place by kubespray
+already has this sort of thing in it. But the rook-ceph-agent
+container (image rook/ceph:master, id
+``docker-pullable://rook/ceph@sha256:92a72f2f2883c79137d4ac771b2c646683aaa39874dc5e7fc9e78463f47a547f``)
+is still trying to make that directory.
+
+
 The rest
 --------
 
