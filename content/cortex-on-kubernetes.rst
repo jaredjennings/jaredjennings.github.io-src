@@ -82,7 +82,7 @@ Set up as directed at k3s.io. Default Traefik ingress included.
 Set up as directed at helm.sh.
 
 1.3.1 Helm repos
-^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
 
 .. table::
 
