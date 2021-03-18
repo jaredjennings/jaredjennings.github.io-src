@@ -95,7 +95,7 @@ Create the deployment.
 This ingress object makes Traefik route requests for
 ``thehive.my.domain`` to TheHive's service.
 
-.. code: yaml
+.. code:: yaml
 
     apiVersion: extensions/v1beta1
     kind: Ingress
