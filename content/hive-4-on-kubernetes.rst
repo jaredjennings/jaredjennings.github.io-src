@@ -4,6 +4,10 @@ Hive 4 on Kubernetes
 :author: jaredj
 :category: Projects
 
+**UPDATE**: I made an unofficial Helm chart at
+https://github.com/jaredjennings/helm-thehive. It does a lot of this,
+but has no documentation yet. Soon.
+
 Here's what I've got so far. It is not complete. For example, it has
 no persistent file storage, and it isn't geared up for Cortex.
 
