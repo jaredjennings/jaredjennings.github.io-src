@@ -4,6 +4,8 @@ Cortex on Kubernetes
 :author: jaredj
 :category: Projects
 
+**UPDATE**: Cortex Helm chart created. See details below.
+
 Cortex is a piece of software for cybersecurity professionals, which
 coordinates analysis of observables found during investigations, and
 automated response to the findings of the analyses. For example,
@@ -49,6 +51,18 @@ job runner, and then a `pull request`_ with an implementation of it.
 
 .. _ticket: https://github.com/TheHive-Project/Cortex/issues/347
 .. _`pull request`: https://github.com/TheHive-Project/Cortex/pull/349
+
+**UPDATE**: https://github.com/jaredjennings/helm-cortex is a Helm
+chart embodying all I've learned
+below. https://hub.docker.com/r/jaredjennings/cortex is a build of the
+code I've submitted in the pull request. It only has a `latest` tag,
+and Helm doesn't let you override the appVersion, so my chart
+presently says the appVersion is "latest." This is frowned upon,
+because Helm charts are supposed to do the same thing a week from now
+that they did today, and "latest" can certainly change from now to
+then. Take it as an indication of the relative immaturity and
+instability of all this stuff that my chart uses the "latest"
+appVersion, and the chart itself has a 0.x version number.
 
 One of the goals I set out in the ticket was some kind of
 documentation about how to make it work. Here's how I did that at
