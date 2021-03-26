@@ -103,8 +103,8 @@ Promblems with this setup
 
 (I swear Strong Bad said "promblem" once, but I can't find it.)
 
- * Cortex is served over unencrypted HTTP. This is a matter of some
-   Traefik twiddling, I think.
+ * Both web UIs are served over unencrypted HTTP. This is a matter of
+   some Traefik twiddling, I think?
  * I think I got lucky about the Cortex connection: my cortex hostname
    is cortex, and the default hostname from the entrypoint is
    cortex. It doesn't appear to pay proper attention to
