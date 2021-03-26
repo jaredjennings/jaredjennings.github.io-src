@@ -101,7 +101,7 @@ You don't have to do it exactly this way, but this is a reference.
 Promblems with this setup
 -------------------------
 
-(I swear Strong Bad said "promblem" once, but I can't find it.)
+(I swear Strong Bad said "promblem" once, but I can't find it. EDIT: `aha! <https://homestarrunner.com/sbemails/170-rough-copy>`_
 
  * Both web UIs are served over unencrypted HTTP. This is a matter of
    some Traefik twiddling, I think?
