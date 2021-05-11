@@ -23,6 +23,11 @@ to remove it easily.
    source ve/bin/activate
    pip install -r requirements.txt
    python3 setup.py bdist_wheel
+   # it will bomb out because build/.../wheel/iocage_lib does not exist
+   mkdir # build/.../wheel
+   mkdir # build/.../wheel/iocage_lib
+   mkdir # build/.../wheel/iocage_cli
+   # that was a kluge within a kluge
    deactivate
    python3 -m venv pexve
    source pexve/bin/activate
