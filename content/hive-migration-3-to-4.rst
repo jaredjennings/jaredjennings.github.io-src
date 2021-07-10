@@ -1,4 +1,4 @@
-igrating from TheHive 3 to 4
+Migrating from TheHive 3 to 4
 #############################
 :date: 2021-07-09 15:08
 :author: jaredj
