@@ -65,7 +65,7 @@ template in case of link rot::
     #action(type="omfile" dirCreateMode="0700" fileCreateMode="0644"
     # file="/var/log/messages" template="ContainerLogs")
 
-.. _`a template`:: https://github.com/kincl/kubernetes-logging-syslog/blob/master/rsyslog.conf.template
+.. _`a template`: https://github.com/kincl/kubernetes-logging-syslog/blob/master/rsyslog.conf.template
 
 Patching
 --------
@@ -83,7 +83,7 @@ accomplishment in the Kubernetes space, I'm sad to say.
 ``kured`` works just like it says on the tin, so I'm not going to say
 anything more about it here.
 
-.. _`blog post`:: https://www.weave.works/blog/one-year-kured-kubernetes-reboot-daemon
+.. _`blog post`: https://www.weave.works/blog/one-year-kured-kubernetes-reboot-daemon
 
 Monitoring
 ----------
@@ -131,7 +131,7 @@ setup, which I skipped entirely. I think the ``k3s-monitoring`` stuff
 got me most of this, and with operators and Helm charts instead of
 manually added Kubernetes objects.
 
-.. _`set of directions`:: https://longhorn.io/docs/1.2.0/monitoring/prometheus-and-grafana-setup
+.. _`set of directions`: https://longhorn.io/docs/1.2.0/monitoring/prometheus-and-grafana-setup
 
 First, to get Prometheus to monitor ("scrape") Longhorn, I added this
 resource to the cluster::
@@ -162,7 +162,7 @@ There is a `Grafana dashboard`_ for Longhorn which I picked up and
 installed. This is not explained in exact detail by the existing
 sources, so I'm going to go into it here.
 
-.. _`Grafana dashboard`:: https://grafana.com/grafana/dashboards/13032
+.. _`Grafana dashboard`: https://grafana.com/grafana/dashboards/13032
 
 When you download the dashboard JSON, the `export/import`_
 documentation says that the JSON has an ``__inputs`` part that defines
@@ -171,7 +171,7 @@ the dashboard, values for these inputs are set. But the means of
 providing dashboards to Grafana using Kubernetes resources doesn't use
 Grafana's import mechanism, so you have to fix this up manually.
 
-.. _`export/import`:: https://grafana.com/docs/reference/export_import/
+.. _`export/import`: https://grafana.com/docs/reference/export_import/
 
 The `JSON I downloaded`_ starts like this::
 
@@ -188,7 +188,7 @@ The `JSON I downloaded`_ starts like this::
       ],
       ...
 
-.. _`JSON I downloaded`:: https://grafana.com/api/dashboards/13032/revisions/6/download
+.. _`JSON I downloaded`: https://grafana.com/api/dashboards/13032/revisions/6/download
 
  And later on there are lots of parts like this::
 
