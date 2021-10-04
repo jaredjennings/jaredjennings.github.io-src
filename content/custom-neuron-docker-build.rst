@@ -113,8 +113,8 @@ is allegedly a `concatenation`_ of all the JSON flavor files into one
 JSON array; but there seems to be a ``dockerImage`` value added in
 there, somehow.
 
-.. `cortex-neurons-builder`: https://github.com/TheHive-Project/cortex-neurons-builder
-.. `concatenation`:
+.. _`cortex-neurons-builder`: https://github.com/TheHive-Project/cortex-neurons-builder
+.. _`concatenation`:
    https://github.com/TheHive-Project/CortexDocs/blob/5fdc930feb2d5a9f95fcabd7d96dccedae62d993/admin/cortex3.md
 
 
