@@ -8,6 +8,7 @@ Photoprism depends on TensorFlow. In May 2022, the py38-tensorflow
 package `does not build
 <https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=259620>`_. Also
 it's pretty old.
+
  1. Create a jail. Java needs proc and /dev/fd::
         iocage create -r 13.1-RELEASE -n portbuild ip4_addr='[...]'
         iocage set mount_procfs=1 mount_fdesc_fs=1 portbuild
