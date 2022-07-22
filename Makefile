@@ -1,6 +1,7 @@
 PY?=python
 PELICAN?=pelican
 PELICANOPTS=
+#-t themes/svbhack
 
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
@@ -120,5 +121,8 @@ cf_upload: publish
 github: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 	git push origin $(GITHUB_PAGES_BRANCH)
+
+jagi_upload: publish
+	rsync -rtv --delete $(OUTPUTDIR)/ eric@securityrules.info:/iocage/jails/j/root/www/
 
 .PHONY: html help clean regenerate serve serve-global devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
