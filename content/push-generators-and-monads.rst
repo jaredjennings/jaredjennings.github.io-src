@@ -2,7 +2,7 @@ Push generators and monads
 ##########################
 :date: 2015-06-01 03:19
 :author: jaredj
-:category: Projects
+:category: Security
 :slug: push-generators-and-monads
 :status: published
 

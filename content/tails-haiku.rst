@@ -2,7 +2,7 @@ Somebodyoughta: Tails + Haiku
 #############################
 :date: 2014-01-11 15:35
 :author: jaredj
-:category: Uncategorized
+:category: Security
 :tags: somebodyoughta, haiku, tails
 :slug: tails-haiku
 :status: published

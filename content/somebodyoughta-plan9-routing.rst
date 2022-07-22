@@ -2,7 +2,7 @@ Somebodyoughta: Plan9 + routing
 ###############################
 :date: 2015-01-26 06:09
 :author: jaredj
-:category: Uncategorized
+:category: Home IT
 :tags: somebodyoughta
 :slug: somebodyoughta-plan9-routing
 :status: published

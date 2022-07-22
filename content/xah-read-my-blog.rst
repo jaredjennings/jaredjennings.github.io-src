@@ -2,7 +2,7 @@ xah read my blog
 ################
 :date: 2018-04-25 22:51
 :author: jaredj
-:category: Uncategorized
+:category: Editors
 
 Omg! I went to `xah lee's emacs blog <http://ergoemacs.org/emacs/blog.html>`_
 and saw my own post written about there. I feel like a screaming fan who

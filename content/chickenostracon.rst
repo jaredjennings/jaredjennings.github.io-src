@@ -2,7 +2,8 @@ Chickenostracon
 ###############
 :date: 2022-03-09 09:24
 :author: jaredj
-:category: Projects
+:category: Backup
+:tags: darbrrb, cyanostracon, scheme, chicken, python, curio, dsbmd, udisks2
 
 I wrote a script once called darbrrb, which helps you make backups
 onto optical discs with redundancy. That script assumes you have one

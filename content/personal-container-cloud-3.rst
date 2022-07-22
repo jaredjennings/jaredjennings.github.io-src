@@ -2,7 +2,7 @@ personal container cloud 3
 ##########################
 :date: 2017-03-19 00:39
 :author: jaredj
-:category: Projects
+:category: Home IT
 :tags: security
 :slug: personal-container-cloud-3
 :status: published

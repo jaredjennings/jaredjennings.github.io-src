@@ -2,7 +2,7 @@ silly homelab gyrations
 #######################
 :date: 2018-08-01 22:58
 :author: jaredj
-:category: Projects
+:category: Home IT
 
 OK so let me tell you about this silly thing. Well first I'm still
 making a keyboard but I'm on a week-or-two break because our car is at

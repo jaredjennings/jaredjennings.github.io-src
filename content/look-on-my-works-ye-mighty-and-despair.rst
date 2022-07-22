@@ -2,7 +2,8 @@ Look on my works, ye mighty, and despair
 ########################################
 :date: 2014-06-01 20:20
 :author: jaredj
-:category: Commentary
+:category: Semantic Web
+:tags: rdf, sparql, ozymandias, despair
 :slug: look-on-my-works-ye-mighty-and-despair
 :status: published
 

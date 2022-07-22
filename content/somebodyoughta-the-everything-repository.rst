@@ -2,7 +2,7 @@ Somebodyoughta: The Everything Repository
 #########################################
 :date: 2015-04-14 15:23
 :author: jaredj
-:category: Uncategorized
+:category: Software development
 :tags: somebodyoughta
 :slug: somebodyoughta-the-everything-repository
 :status: published

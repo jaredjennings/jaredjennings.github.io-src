@@ -2,6 +2,7 @@ TheHive and Cortex on Kubernetes with Helm, late May 2021
 #########################################################
 :date: 2021-05-21 16:26
 :author: jaredj
+:category: Security
 :tags: kubernetes, thehive, cortex, helm
 
 What's new?

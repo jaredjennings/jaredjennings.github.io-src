@@ -2,7 +2,7 @@ redundancy file format
 ######################
 :date: 2016-02-06 04:09
 :author: jaredj
-:category: Projects
+:category: Backup
 :slug: redundancy-file-format
 :status: published
 

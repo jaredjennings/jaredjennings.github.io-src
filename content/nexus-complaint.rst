@@ -2,8 +2,7 @@ Nexus phones, security and autonomy
 ###################################
 :date: 2016-06-16 23:21
 :author: jaredj
-:category: Uncategorized
-:slug:  
+:category: Smartphones
 :status: draft
 
 This is a complaint, so I'll try to keep it short. Nexus phones were

@@ -2,6 +2,7 @@ Building, etc., part 3
 ######################
 :date: 2022-07-18 22:03
 :author: jaredj
+:category: Security
 :tags: kubernetes, cortex, thehive, buildah, docker, podman
 
 OK. I've learned: `sbt-native-packager` runs Docker to handle

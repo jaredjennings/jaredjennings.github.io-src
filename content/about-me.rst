@@ -2,6 +2,7 @@ About me
 ########
 :date: 2014-01-11 02:30
 :author: jaredj
+:category: Meta
 :slug: about-me
 :status: published
 

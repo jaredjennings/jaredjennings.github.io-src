@@ -2,8 +2,8 @@ Fork TheHive 4
 ##############
 :date: 2022-07-03 15:02
 :author: jaredj
-:category: TheHive
-:tags: security, community, agpl
+:category: Security
+:tags: security, community, agpl, thehive4
 
 [Edited several hours later: clarified some terms and improved flow.]
 

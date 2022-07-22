@@ -2,7 +2,7 @@ libfive
 #######
 :date: 2018-04-10
 :author: jaredj
-:category: Projects
+:category: Keyboards
 
 So earlier I got `libfive <https://github.com/libfive/libfive>`_ and
 built and installed it, and the libfive Studio segfaulted. And then

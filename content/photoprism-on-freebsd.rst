@@ -2,7 +2,7 @@ Photoprism on FreeBSD 13.1
 ##########################
 :date: 2022-05-26 21:51
 :author: jaredj
-:category: Projects
+:category: Home IT
 
 Photoprism depends on TensorFlow. In May 2022, the py38-tensorflow
 package `does not build

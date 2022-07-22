@@ -2,6 +2,8 @@ Running the latest iocage on FreeBSD with pex
 #############################################
 :date: 2021-05-04 00:01
 :author: jaredj
+:category: Home IT
+:tags: iocage, jails, freebsd, pex
 
 While trying to move iocage jails from one machine to another, I found
 that iocage import tries to read its entire input into RAM, in the

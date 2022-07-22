@@ -2,7 +2,7 @@ Clojure code organization
 #########################
 :date: 2019-06-26 00:24
 :author: jaredj
-:category: Projects
+:category: Keyboards
 
 I started the Dactyl Marshmallow from the Dactyl, written by Matt
 Adereth. He wrote all his code in a single file, dactyl.clj. This file

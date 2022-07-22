@@ -2,7 +2,8 @@ for and against PAR1
 ####################
 :date: 2016-02-07 01:56
 :author: jaredj
-:category: Projects
+:category: Backup
+:tags: darbrrb, par, par2, par1, gibraltar
 :slug: for-and-against-par1
 :status: published
 

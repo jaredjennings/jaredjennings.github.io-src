@@ -2,7 +2,7 @@ libfive cool-off
 ################
 :date: 2018-04-13 17:39
 :author: jaredj
-:category: Projects
+:category: Keyboards
 
 libfive doesn't have a hull nor minkowski operation. The Dactyl
 depends hravily on the hull operation; my marshmallowy sides depend on

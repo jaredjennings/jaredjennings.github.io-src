@@ -2,7 +2,7 @@ LEDE IPv6 odyssey
 #################
 :date: 2017-03-31 00:05
 :author: jaredj
-:category: Projects
+:category: Home IT
 :status: published
 
 It seems after all that my LEDE upgrade didn't work flawlessly. I

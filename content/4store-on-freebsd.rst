@@ -2,7 +2,7 @@ building 4store on FreeBSD
 ##########################
 :date: 2017-12-27 23:03
 :author: jaredj
-:category: Projects
+:category: Security
 :slug: 4store-freebsd
 :status: published
 

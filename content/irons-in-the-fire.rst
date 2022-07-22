@@ -2,7 +2,7 @@ Irons in the fire
 #################
 :date: 2014-01-11 21:05
 :author: jaredj
-:category: Projects
+:category: Commentary
 :tags: boot2gecko, darbrrb, entropy, reorg, stigs
 :slug: irons-in-the-fire
 :status: published

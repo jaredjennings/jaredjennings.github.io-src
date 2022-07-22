@@ -2,7 +2,7 @@ FreeBSD
 #######
 :date: 2017-04-09 00:19
 :author: jaredj
-:category: Projects
+:category: Home IT
 :slug: freebsd
 :status: published
 

@@ -2,7 +2,8 @@ Kubernetes early 2019
 #####################
 :date: 2019-04-11 19:12
 :author: jaredj
-:category: Projects
+:category: Cloud
+:tags: coreos, kubespray, kubernetes, freebsd, bhyve
 
 After several iterations of beginning to read the OpenShift Origin 3
 (now OKD) documentation on installation, and being cowed by the system

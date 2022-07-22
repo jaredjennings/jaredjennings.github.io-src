@@ -2,7 +2,7 @@ on text-based user interfaces
 #############################
 :date: 2017-01-19 10:14
 :author: jaredj
-:category: Uncategorized
+:category: Commentary
 :slug: on-input
 :status: published
 

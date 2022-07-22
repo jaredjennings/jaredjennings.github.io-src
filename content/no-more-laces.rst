@@ -2,7 +2,7 @@ no more laces
 #############
 :date: 2019-05-25 23:30
 :author: jaredj
-:category: Projects
+:category: Keyboards
 
 I started the Dactyl Marshmallow for two reasons: (1) I wanted a
 keyboard that looked like a Datassette; (2) I couldn't print the

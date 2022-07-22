@@ -2,7 +2,8 @@ Building your own Cortex neuron in a Docker image
 #################################################
 :date: 2021-10-04 13:45
 :author: jaredj
-:category: Projects
+:category: Security
+:tags: cortex, docker, cloud, kubernetes
 
 Neurons
 -------

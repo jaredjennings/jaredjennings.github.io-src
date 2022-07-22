@@ -2,7 +2,7 @@ sagemincer
 ##########
 :date: 2014-08-08 02:44
 :author: jaredj
-:category: Projects
+:category: Security
 :tags: security
 :slug: sagemincer
 :status: published

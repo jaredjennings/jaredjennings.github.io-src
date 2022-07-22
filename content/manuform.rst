@@ -2,7 +2,7 @@ Dactyl Manuform!
 ################
 :date: 2019-07-25 00:02
 :author: jaredj
-:category: Projects
+:category: Keyboards
 
 How to make a Dactyl Manuform.
 

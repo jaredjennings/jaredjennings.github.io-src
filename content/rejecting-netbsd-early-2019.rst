@@ -2,7 +2,7 @@ Rejecting NetBSD in early 2019
 ##############################
 :date: 2019-01-29 00:40
 :author: jaredj
-:category: Projects
+:category: Home IT
 
 I've got this Dell Latitude E4300 laptop. The battery has stopped
 working long ago, but the computer hasn't. I had FreeBSD on it, with

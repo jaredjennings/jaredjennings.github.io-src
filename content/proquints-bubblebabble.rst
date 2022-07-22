@@ -2,7 +2,7 @@ proquints vs. bubblebabble
 ##########################
 :date: 2017-04-21 22:50
 :author: jaredj
-:category: Commentary
+:category: Semantic Web
 :slug: proquints-bubblebabble
 :status: published
 

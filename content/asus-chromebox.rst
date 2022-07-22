@@ -2,7 +2,7 @@ Asus Chromebox CN60
 ###################
 :date: 2021-06-27 22:17
 :author: jaredj
-:category: Projects
+:category: Home IT
 
 I'm trying to split my IT estate across two floors of my house. The
 present plan for that entails some kind of low-powered device

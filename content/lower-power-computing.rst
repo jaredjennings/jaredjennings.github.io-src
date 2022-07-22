@@ -2,7 +2,7 @@ lower power computing
 #####################
 :date: 2019-12-29 20:26
 :author: jaredj
-:category: Untangling
+:category: Commentary
 
 Cool introduction later, maybe.
 

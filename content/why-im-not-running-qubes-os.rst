@@ -2,7 +2,7 @@ Why I'm not running Qubes OS
 ############################
 :date: 2016-01-13 03:42
 :author: jaredj
-:category: Uncategorized
+:category: Security
 :slug: why-im-not-running-qubes-os
 :status: published
 

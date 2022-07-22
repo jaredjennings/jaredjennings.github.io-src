@@ -4,6 +4,7 @@ Résumé
 :author: jaredj
 :slug: resume
 :status: published
+:category: Meta
 
 You can see what I've made on
 `GitHub <http://github.com/jaredjennings/>`__,

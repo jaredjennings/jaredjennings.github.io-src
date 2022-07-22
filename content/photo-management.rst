@@ -2,7 +2,7 @@ photo management
 ################
 :date: 2017-04-12 22:24
 :author: jaredj
-:category: Projects
+:category: Home IT
 :slug: photo-management
 :status: published
 

@@ -2,7 +2,8 @@ Cortex on Kubernetes
 ####################
 :date: 2021-03-09 14:15
 :author: jaredj
-:category: Projects
+:category: Security
+:tags: cortex, thehive, kubernetes, docker, howto
 
 **UPDATE**: Cortex Helm chart created. See details below.
 

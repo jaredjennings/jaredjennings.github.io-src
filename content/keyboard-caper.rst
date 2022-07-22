@@ -2,7 +2,8 @@ the keyboard caper
 ##################
 :date: 2017-11-04 23:18
 :author: jaredj
-:category: Projects
+:category: Keyboards
+:tags: xah-fly-keys, emacs, keyboard
 
 The editor caper continues, kind-of. I'm pretty settled on
 xah-fly-keys now, although it still doesn't have C-k. I found out the

@@ -2,7 +2,7 @@ redundancy files
 ################
 :date: 2016-02-06 01:32
 :author: jaredj
-:category: Projects
+:category: Backup
 :slug: redundancy-files
 :status: published
 

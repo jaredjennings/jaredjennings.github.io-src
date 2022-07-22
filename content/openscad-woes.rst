@@ -2,7 +2,7 @@ OpenSCAD woes
 #############
 :date: 2018-04-07
 :author: jaredj
-:category: Projects
+:category: Keyboards
 
 I've gotten to the point in my `keyboard building
 <https://github.com/jaredjennings/dactyl-keyboard>`_ (the real action

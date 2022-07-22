@@ -2,6 +2,8 @@ Migrating from TheHive 3 to 4
 #############################
 :date: 2021-07-09 15:08
 :author: jaredj
+:category: Security
+:tags: thehive3, thehive4, thehive, kubernetes, elasticsearch
 
 Preconditions
 -------------

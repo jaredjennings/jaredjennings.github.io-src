@@ -2,7 +2,7 @@ Somebodyoughta: Enyo + Linked Open Data
 #######################################
 :date: 2014-02-09 20:26
 :author: jaredj
-:category: Uncategorized
+:category: Semantic Web
 :tags: somebodyoughta
 :slug: enyo-linked-open-data
 :status: published

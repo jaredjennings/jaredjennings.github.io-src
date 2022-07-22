@@ -2,6 +2,7 @@ reorg
 #####
 :date: 2014-01-11 22:18
 :author: jaredj
+:category: Electronics
 :slug: reorg
 :status: published
 

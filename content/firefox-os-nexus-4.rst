@@ -2,7 +2,8 @@ Firefox OS on the Nexus 4
 #########################
 :date: 2015-02-04 05:21
 :author: jaredj
-:category: Uncategorized
+:category: Smartphones
+:tags: somebodyoughta
 :slug: firefox-os-nexus-4
 :status: published
 

@@ -2,7 +2,7 @@ the editor caper
 ################
 :date: 2017-09-13 22:17
 :author: jaredj
-:category: Commentary
+:category: Editors
 
 For twelve years or so, I used Vim. Then, at work, I decided to try
 Emacs for the fifth time or so, and it stuck, particularly when I

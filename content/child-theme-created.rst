@@ -2,7 +2,7 @@ Child theme created
 ###################
 :date: 2015-09-04 02:15
 :author: jaredj
-:category: Uncategorized
+:category: Meta
 :slug: child-theme-created
 :status: published
 

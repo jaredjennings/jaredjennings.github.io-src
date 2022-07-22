@@ -2,7 +2,8 @@ FreeBSD NFSv4 woes
 ##################
 :date: 2018-09-16 23:22
 :author: jaredj
-:category: Projects
+:category: Home IT
+:tags: freebsd, zfs, nfs
 
 I set up a FreeBSD VM to serve my files over NFS from a ZFS
 filesystem, having lost some data from an XFS filesystem. My clients

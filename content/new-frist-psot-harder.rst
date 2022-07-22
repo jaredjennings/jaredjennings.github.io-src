@@ -2,6 +2,7 @@ Frist Psot!
 ===========
 
 :date: 2016-11-02 22:30:20
+:category: Meta
 
 
 I've imported the content from the original "Writing to think," a

@@ -2,7 +2,7 @@ Somebodyoughta: GitLab + Trello
 ###############################
 :date: 2015-01-30 04:44
 :author: jaredj
-:category: Uncategorized
+:category: Software development
 :tags: somebodyoughta
 :slug: somebodyoughta-gitorious-trello
 :status: published

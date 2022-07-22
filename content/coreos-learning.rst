@@ -2,8 +2,8 @@ learning about CoreOS Container Linux
 #####################################
 :date: 2017-01-25 00:16
 :author: jaredj
-:category: Projects
-:tags: security
+:category: Home IT
+:tags: security, coreos, containers, cloud
 :slug: coreos-learning
 :status: published
 

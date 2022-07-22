@@ -2,7 +2,7 @@ FreeBSD for virtualization
 ##########################
 :date: 2018-01-27 20:24
 :author: jaredj
-:category: Projects
+:category: Home IT
 :slug: freebsd-2
 :status: published
 

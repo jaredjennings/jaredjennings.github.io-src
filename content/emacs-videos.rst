@@ -2,7 +2,7 @@ emacs videos
 ############
 :date: 2018-06-01 01:30
 :author: jaredj
-:category: Emacs
+:category: Editors
 
 Xah has started to post videos on his Emacs blog. And I
 watched "playing Emacs like an instrument," and watched part of

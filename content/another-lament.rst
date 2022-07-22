@@ -2,6 +2,7 @@ another lament
 ##############
 :date: 2018-01-31 17:27
 :author: jaredj
+:category: Commentary
 :slug: another-lament
 :status: published
 

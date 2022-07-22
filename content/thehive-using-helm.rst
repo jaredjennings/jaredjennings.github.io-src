@@ -2,7 +2,8 @@ Installing TheHive and Cortex using Helm on Kubernetes
 ######################################################
 :date: 2021-03-25 09:57
 :author: jaredj
-:category: Projects
+:category: Security
+:tags: kubernetes, cloud, helm, thehive, cortex
 
 You don't have to do it exactly this way, but this is a reference.
 

@@ -2,7 +2,7 @@ touch typing
 ############
 :date: 2018-05-31 13:47
 :author: jaredj
-:category: Projects
+:category: Keyboards
 
 OK so I'm making this ergonomic keyboard. And I've also been learning the Colemak layout. But I discovered that my wrists hurt more when typing with Colemak. Quite unexpected. I noticed myself using my pinkies more, reaching with my right index finger more, and spending more time on the home row, which is unnatural for me. I usually have my fingers resting on (left from pinky to index) Caps, W, E, F, (right from pinky to index) apostrophe, O, I, J. I told the `keyboard analysis tool <https://colemakmods.github.io/mod-dh/analyze.html>`_ which fingers I really think I use, and took a stab at effort numbers. With this, it gave my QWERTY typing a score of 2.328, Colemak 2.237, and Mod-DH 2.171. With the usual finger usages, Colemak scores 1.4 (lower is better). This means that for me, on a normal keyboard, Colemak is not a significant win.
 

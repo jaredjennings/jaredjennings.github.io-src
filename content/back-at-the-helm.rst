@@ -2,7 +2,7 @@ Back at the helm
 ################
 :date: 2022-07-04 22:48
 :author: jaredj
-:category: Security
+:category: Home IT
 :tags: kubernetes, helm, cortex, thehive
 
 Last time I ran things with Docker and Kubernetes at home, it was a

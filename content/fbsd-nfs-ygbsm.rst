@@ -2,7 +2,7 @@ FreeBSD NFS YGBSM
 #################
 :date: 2018-09-18 00:19
 :author: jaredj
-:category: Projects
+:category: Home IT
 
 Seriously?
 

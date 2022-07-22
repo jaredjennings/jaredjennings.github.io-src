@@ -2,7 +2,8 @@ MISP on Kubernetes
 ##################
 :date: 2021-04-26 12:21
 :author: jaredj
-:category: Projects
+:category: Security
+:tags: misp, kubernetes, helm
 
 I made a `Helm chart <https://github.com/jaredjennings/helm-misp>`_
 for installing MISP on Kubernetes. It works the same as the Cortex and

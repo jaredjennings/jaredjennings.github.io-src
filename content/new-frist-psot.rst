@@ -2,7 +2,7 @@ New frist psot
 ##############
 :date: 2014-01-10 23:59
 :author: jaredj
-:category: Uncategorized
+:category: Meta
 :slug: new-frist-psot
 :status: published
 

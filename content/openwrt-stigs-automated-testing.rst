@@ -2,8 +2,8 @@ Somebodyoughta: OpenWRT + STIGs + automated testing
 ###################################################
 :date: 2014-10-10 05:06
 :author: jaredj
-:category: Compliance at home
-:tags: security, somebodyoughta
+:category: Security
+:tags: security, somebodyoughta, compliance
 :slug: openwrt-stigs-automated-testing
 :status: published
 

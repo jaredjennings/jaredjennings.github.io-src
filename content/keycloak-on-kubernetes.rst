@@ -2,7 +2,8 @@ Keycloak 12 on Kubernetes
 #########################
 :date: 2021-04-27 15:51
 :author: jaredj
-:category: Projects
+:category: Security
+:tags: thehive4, cortex, kubernetes, keycloak, authentication, k3s
 
 I'm trying to put a Keycloak in front of my Cortex 3, Hive 4, and MISP
 2.4.140 Kubernetes deployments, to unify authentication decisions for

@@ -2,6 +2,7 @@ Building containers with Scala and Play software, July 2022, part 1
 ###################################################################
 :date: 2022-07-06 20:16
 :author: jaredj
+:category: Security
 :tags: kubernetes, cortex, thehive, buildah, docker, podman
 
 I've done some work to update my Cortex `pull request

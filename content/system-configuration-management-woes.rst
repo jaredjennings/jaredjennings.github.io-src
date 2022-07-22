@@ -2,7 +2,7 @@ System configuration management woes
 ####################################
 :date: 2015-09-19 02:34
 :author: jaredj
-:category: Uncategorized
+:category: Security
 :slug: system-configuration-management-woes
 :status: published
 

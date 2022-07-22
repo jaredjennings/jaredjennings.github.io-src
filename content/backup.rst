@@ -2,7 +2,7 @@ Backup
 ######
 :date: 2015-06-24 05:01
 :author: jaredj
-:category: Projects
+:category: Backup
 :slug: backup
 :status: published
 

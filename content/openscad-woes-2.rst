@@ -2,7 +2,7 @@ OpenSCAD continued musings
 ##########################
 :date: 2018-04-10
 :author: jaredj
-:category: Projects
+:category: Keyboards
 
 I've looked at the overly lengthy SCAD code that's being generated to
 describe the marshmallowy sides of my keyboard. These sides are

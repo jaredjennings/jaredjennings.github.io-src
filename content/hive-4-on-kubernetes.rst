@@ -2,7 +2,8 @@ Hive 4 on Kubernetes
 ####################
 :date: 2021-03-10 15:59
 :author: jaredj
-:category: Projects
+:category: Security
+:tags: kubernetes, helm, thehive, thehive4, k3s, longhorn
 
 **UPDATE**: I made an unofficial Helm chart at
 https://github.com/jaredjennings/helm-thehive. It does a lot of this,

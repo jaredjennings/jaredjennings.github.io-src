@@ -2,7 +2,7 @@ Somebodyoughta: Firefox Sync 1.5 + OpenShift Quickstart
 #######################################################
 :date: 2014-10-11 20:16
 :author: jaredj
-:category: Uncategorized
+:category: Cloud
 :tags: somebodyoughta
 :slug: firefox-sync-1-5-openshift-quickstart
 :status: published

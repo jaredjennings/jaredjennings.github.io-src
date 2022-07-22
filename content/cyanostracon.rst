@@ -2,9 +2,10 @@ cyanostracon
 ############
 :date: 2016-11-02 23:19:35
 :author: jaredj
-:category: Projects
+:category: Backup
 :slug: cyanostracon
 :status: published
+:tags: darbrrb, cyanostracon, backup
 
 `darbrrb <https://github.com/jaredjennings/darbrrb>`_ is
 well-developed and well-tested. I've made several backups with it. But

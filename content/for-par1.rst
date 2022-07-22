@@ -2,7 +2,8 @@ for PAR1
 ########
 :date: 2016-02-07 05:42
 :author: jaredj
-:category: Projects
+:category: Backup
+:tags: par, par1, par2
 :slug: for-par1
 :status: published
 

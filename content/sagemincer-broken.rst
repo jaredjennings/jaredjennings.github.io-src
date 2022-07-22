@@ -2,7 +2,7 @@ sagemincer broken
 #################
 :date: 2017-01-25 23:07
 :author: jaredj
-:category: Projects
+:category: Security
 :slug: sagemincer-broken
 :status: published
 

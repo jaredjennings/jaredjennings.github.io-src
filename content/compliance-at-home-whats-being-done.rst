@@ -2,8 +2,8 @@ Compliance at home: What's being done
 #####################################
 :date: 2014-03-07 05:47
 :author: jaredj
-:category: Compliance at home
-:tags: nist, oval, scap, security, standards, xccdf
+:category: Security
+:tags: nist, oval, scap, security, standards, xccdf, compliance
 :slug: compliance-at-home-whats-being-done
 :status: published
 

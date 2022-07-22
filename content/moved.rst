@@ -2,7 +2,7 @@ Moved
 #####
 :date: 2015-08-30 01:10
 :author: jaredj
-:category: Uncategorized
+:category: Meta
 :slug: moved
 :status: published
 

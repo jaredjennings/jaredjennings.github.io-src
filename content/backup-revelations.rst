@@ -2,7 +2,7 @@ Backup revelations
 ##################
 :date: 2015-08-30 01:06
 :author: jaredj
-:category: Projects
+:category: Backup
 :slug: backup-revelations
 :status: published
 

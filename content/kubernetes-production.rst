@@ -2,7 +2,8 @@ The road to production with Kubernetes
 ######################################
 :date: 2021-09-13 10:53
 :author: jaredj
-:category: Projects
+:category: Cloud
+:tags: thehive4, cortex, kubernetes, production
 
 Up to now my Hive/Cortex on Kubernetes work has been focused on
 getting things to initially work. Now I need to pay some attention to

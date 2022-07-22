@@ -2,7 +2,7 @@ personal container cloud 2
 ##########################
 :date: 2017-02-07 19:58
 :author: jaredj
-:category: Projects
+:category: Home IT
 :tags: security
 :slug: personal-container-cloud-2
 :status: published

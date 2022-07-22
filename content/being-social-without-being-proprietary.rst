@@ -2,9 +2,10 @@ being social without being proprietary
 ######################################
 :date: 2016-03-09 03:24
 :author: jaredj
-:category: Uncategorized
+:category: Commentary
 :slug: being-social-without-being-proprietary
 :status: published
+:tags: rdf, twitter, diaspora, statusnet, social
 
 I'm annoyed at the app-centric world that most people live in nowadays.
 The FSF wants my help in `protesting the

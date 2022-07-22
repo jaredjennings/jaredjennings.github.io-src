@@ -2,7 +2,7 @@ Thinner marshmallow, fall 2019
 ##############################
 :date: 2019-09-27 00:15
 :author: jaredj
-:category: Projects
+:category: Keyboards
 
 Disillusioned with my failure to make a keyboard bottom out of pieces
 that could be precisely glued together, and possessed of a printer

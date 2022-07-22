@@ -2,8 +2,8 @@ Compliance at home
 ##################
 :date: 2014-01-22 05:41
 :author: jaredj
-:category: Compliance at home
-:tags: disa, nist, security, srg, standards, stig
+:category: Security
+:tags: disa, nist, security, srg, standards, stig, compliance
 :slug: compliance-at-home
 :status: published
 
