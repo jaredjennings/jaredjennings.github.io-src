@@ -43,4 +43,4 @@ RELATIVE_URLS = True
 
 
 # for mg theme
-#THEME = 'themes/svbhack'
+#THEME = 'themes/mg'
