@@ -6,7 +6,7 @@ AUTHOR = u'Jared Jennings'
 SITENAME = u'Writing to think 2: Write harder'
 # SITEURL = 'http://j.agrue.info'
 # do not summarize
-#SUMMARY_MAX_LENGTH = None
+SUMMARY_MAX_LENGTH = None
 DEFAULT_PAGINATION = 5
 
 PATH = 'content'
