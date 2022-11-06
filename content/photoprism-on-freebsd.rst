@@ -4,6 +4,10 @@ Photoprism on FreeBSD 13.1
 :author: jaredj
 :category: Home IT
 
+
+First try
+---------
+
 Photoprism depends on TensorFlow. In May 2022, the py38-tensorflow
 package `does not build
 <https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=259620>`_. Also
@@ -52,3 +56,73 @@ it's pretty old.
  8. Sign up to bugs.freebsd.org and tell folks about it because it's one step past what is already written.
 
 Updates as events warrant. (Surely OP will deliver!)
+
+Second try
+----------
+
+I tried making a Linux jail. I managed to get Debian 11.3 up following
+some directions I don't remember now. I think I created an empty jail
+with iocage, then used debootstrap (which is installable as a FreeBSD
+package) to put all the files into it. Upgrade to 11.5 worked ok. It
+seemed like a good idea to set the ``linprocfs_mounted`` option on the
+jail. There was no photoprism package in the apt repository for
+bullseye. I updated it to the latest Sid, and while it ran bash fine,
+systemctl didn't work. (Go figure.) It said systemd-whatnot wasn't pid
+1 and barfed. I destroyed the jail. I think Devuan would be the next
+best step along this line. Or if I could ... hmm. I don't really need
+a distro for Photoprism to run on, unless there's a nice package for
+me to install. If I've got to build Photoprism, it would be better for
+what I run in the jail to be more like ... the contents of a container
+image. Such an image might assume a newer kernel just like Sid did
+though.
+
+Third try
+---------
+
+Ok py-tensorflow was a complete red herring - that port/package is for
+getting TensorFlow accessible from Python, and we really need it
+accessible from C. (Photoprism is in C#, but it links against the C
+library. I think.)
+
+Fired up the photoprism jail, updated the ports tree, ran ``make
+clean`` at the top.
+
+Somehow I have not yet mentioned the `Photoprism FreeBSD
+port`_. That's kind of important.
+
+.. _`Photoprism FreeBSD port`: https://github.com/huo-ju/photoprism-freebsd-port
+
+It says, "This port depends on science/libtensorflow1." I don't see a
+package for that. So that's the port I need to build a package for,
+first. ... As soon as my ``make clean`` finishes. It's moved on from
+"astro" to "audio". That could take a while... ok I gave up during
+"databases," went straight to science/libtensorflow1, checked its deps
+in its Makefile, pkg installed them (because I don't want to build the
+hundreds of ports in the transitive dependency tree), and set to
+``make package`` in science/libtensorflow1. And the port is marked
+broken because it fetches during the build stage. OK, comment out the
+``BROKEN`` declaration and blunder ahead. No GPU acceleration just
+yet - I want this build as simple as possible.
+
+OK, more transitive dependencies to install - ``py39-cython-devel``,
+eh that's about it. There are some Google libraries I could fetch, but
+it's not easy to figure out which ones. Right? That's a bit of a
+shame - they are transitive dependencies, and they are ports. So to
+figure out which packages to install, first I'd have to list them all,
+then figure out a correspondence to package names. I don't see tools
+that do that laying about. Hope I'm wrong there.
+
+And Bazel is off and building. ... and::
+
+  ERROR: /usr/ports/science/libtensorflow1/work-default/tensorflow-1.15.5/tensorflow/core/BUILD:2724:1: ProtoCompile tensorflow/core/framework/op_def.pb.h failed (Illegal instruction): protoc failed: error executing command
+    (cd /usr/ports/science/libtensorflow1/work-default/bazel_out/98e92f9393bc83ca8c28c921fe93f245/execroot/org_tensorflow && \
+    exec env - \
+      PATH=/usr/ports/science/libtensorflow1/work-default/.bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:/root/bin \
+      PYTHON_BIN_PATH=/usr/local/bin/python3.9 \
+      PYTHON_LIB_PATH=/usr/local/lib/python3.9/site-packages \
+      TF2_BEHAVIOR=0 \
+      TF_CONFIGURE_IOS=0 \
+    bazel-out/host/bin/external/com_google_protobuf/protoc '--cpp_out=bazel-out/freebsd-opt/bin' -I. -I. -Iexternal/com_google_protobuf/src -Ibazel-out/freebsd-opt/bin/external/com_google_protobuf/src -Iexternal/com_google_protobuf/src -Ibazel-out/freebsd-opt/bin/external/com_google_protobuf/src tensorflow/core/framework/op_def.proto)
+
+
+
