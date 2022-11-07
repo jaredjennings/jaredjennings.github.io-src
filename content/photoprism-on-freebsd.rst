@@ -124,5 +124,53 @@ And Bazel is off and building. ... and::
       TF_CONFIGURE_IOS=0 \
     bazel-out/host/bin/external/com_google_protobuf/protoc '--cpp_out=bazel-out/freebsd-opt/bin' -I. -I. -Iexternal/com_google_protobuf/src -Ibazel-out/freebsd-opt/bin/external/com_google_protobuf/src -Iexternal/com_google_protobuf/src -Ibazel-out/freebsd-opt/bin/external/com_google_protobuf/src tensorflow/core/framework/op_def.proto)
 
+I can't really debug that "illegal instruction" erro... hang on a
+second. I told it to build with AVX2 support, and here's my CPU info
+from ``/var/log/messages``::
 
+  Oct 26 00:23:11 forward kernel: CPU: Intel(R) Xeon(R) CPU E5-1650 v2 @ 3.50GHz (3491.72-MHz K8-class CPU)
+  Oct 26 00:23:11 forward kernel:   Origin="GenuineIntel"  Id=0x306e4  Family=0x6  Model=0x3e  Stepping=4
+  Oct 26 00:23:11 forward kernel:   Features=0xbfebfbff<FPU,VME,DE,PSE,TSC,MSR,PAE,MCE,CX8,APIC,SEP,MTRR,PGE,MCA,CMOV,PAT,PSE36,CLFLUSH,DTS,ACPI,MMX,FXSR,SSE,SSE2,SS,HTT,TM,PBE>
+  Oct 26 00:23:11 forward kernel:   Features2=0x7fbee3ff<SSE3,PCLMULQDQ,DTES64,MON,DS_CPL,VMX,SMX,EST,TM2,SSSE3,CX16,xTPR,PDCM,PCID,DCA,SSE4.1,SSE4.2,x2APIC,POPCNT,TSCDLT,AESNI,XSAVE,OSXSAVE,AVX,F16C,RDRAND>
+  Oct 26 00:23:11 forward kernel:   AMD Features=0x2c100800<SYSCALL,NX,Page1GB,RDTSCP,LM>
+  Oct 26 00:23:11 forward kernel:   AMD Features2=0x1<LAHF>
+  Oct 26 00:23:11 forward kernel:   Structured Extended Features=0x281<FSGSBASE,SMEP,ERMS>
+  Oct 26 00:23:11 forward kernel:   XSAVE Features=0x1<XSAVEOPT>
+  Oct 26 00:23:11 forward kernel:   VT-x: PAT,HLT,MTF,PAUSE,EPT,UG,VPID,VID,PostIntr
+  Oct 26 00:23:11 forward kernel:   TSC: P-state invariant, performance statistics
+
+So *squint* I've got SSE2, SSE3, SSE4.1 and 4.2, ahah! AVX but not
+AVX2. OK, I'll tell ``make config`` to use AVX. I don't think that
+just because I said to use AVX2 that this would cause *protoc* to use
+it, but let's give it a shot.
+
+Aaand that worked. There you have it kids. Don't try to pick a CPU
+optimization you don't have.
+
+libtensorflow1 package built!
+-----------------------------
+
+OK the libtensorflow package is built. Now we have to build
+photoprism. We'll need libtensorflow to build it, so ::
+
+  pkg install work-default/pkg/libtensorflow*.pkg
+
+And then we can just do what the photoprism repo says on the README --
+oh, let's not build libheif, ``pkg install libheif``. Eyyy, and it
+built! OK. So on our jail to run this app we'll need to install:
+
+ - libtensorflow1
+ - libheif
+ - photoprism
+
+And do what the notes say when you install the package. This results
+in ``/var/db/photoprism`` with ``assets`` and ``storage``
+subdirectories. I had to chown one of these to photoprism before the
+app would stay started (logs in /var/log/messages guided me). These
+directories will likely benefit from appropriate ZFS settings. I'll
+also want my existing photos to show up there some time some way,
+likely via a nullfs mount.
+
+Now I've got a listening socket on port 2342. Time to open up some
+firewalls and tell Traefik what's going on.
 
