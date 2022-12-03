@@ -36,4 +36,3 @@ idea.
  * The work it takes to make the application assume less about its
    environment may also pay off for other deployment methods--Nomad,
    systemd containers, FreeBSD jails or pots, or what-have-you.
-

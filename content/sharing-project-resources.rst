@@ -78,7 +78,7 @@ require OpenPGP too. I think someone asked to be able to unlock their
 KeePassXC database using GnuPG, but the answer came back that this
 couldn't be done portably. That's fair.
 
-This is two alternatives, and I don't think either is really
-satisfactory. But the up-to-date list of project infrastructure is
-more important than a password-sharing solution for the ages, and this
-meditation is probably premature optimization.
+BitWarden and KeePass are two alternatives, and I don't think either
+is really satisfactory. But the up-to-date list of project
+infrastructure is more important than a password-sharing solution for
+the ages, and this meditation is probably premature optimization.
