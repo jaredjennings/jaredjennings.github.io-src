@@ -130,3 +130,10 @@ read yet; but I feel accomplished. I'm still trying to figure out how
 to make it easy to expand it, and hook it up to asynchronous I/O, and
 make it available as an egg, test it, test things made with it, and
 finally get back to my quixotic reimplementation of cyanostracon.
+
+EDIT
+====
+
+Uhhh. So the farther I got implementing that, the more I learned that
+*this is how Chicken already does threads natively*. I should have
+read up on it more. I still feel good about grokking call/cc.
