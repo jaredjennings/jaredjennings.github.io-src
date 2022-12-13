@@ -138,14 +138,17 @@ it's only 100 lines so I'm not making it a git repo::
 
     local assoclist_errors = {}
     for i, d in ipairs(devices_answer.devices) do
-      local safe_d = string.gsub(d, "-", "--")
+      -- collectd splits only at the first dash, and my later script
+      -- splits on "-STA-", and it's more of a pain to have the interface
+      -- name be mangled in some places and not others.
+      local safe_d = d   -- string.gsub(d, "-", "--")
       local assoclist_answer = conn:call("iwinfo", "assoclist", {device=d})
       if assoclist_answer.results then
         for j, r in ipairs(assoclist_answer.results) do
           local instance = safe_d .. "-STA-" .. string.gsub(r.mac, ":", "-")
           for k, stat in pairs(stats_for) do
             local av = {
-              plugin="iw-assoc",
+              plugin="iw_assoc",
               plugin_instance=instance,
               type=stat.type,
               values={r[stat.key]}}
@@ -154,7 +157,7 @@ it's only 100 lines so I'm not making it a git repo::
           end
           for k, stat in pairs(tx_rx_stats_for) do
             local av = {
-              plugin="iw-assoc",
+              plugin="iw_assoc",
               plugin_instance=instance,
               type=stat.type,
               values={r.rx[stat.key], r.tx[stat.key]}}
@@ -181,6 +184,12 @@ it's only 100 lines so I'm not making it a git repo::
   else
     read()
   end
+
+**EDIT**: Changed the plugin name from iw-assoc to iw_assoc, because
+the plugin name is split from the plugin instance at the first dash
+(`see collectd source`_).
+
+.. _`see collectd source`: https://github.com/collectd/collectd/blob/dfd034032b7c7c8f821774715c0723c42cefd332/src/utils/common/common.c#L1004
 
 To get it to run, I had to add these lines to my ``collectd.conf``::
 
