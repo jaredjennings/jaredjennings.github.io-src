@@ -173,7 +173,7 @@ not a read-eval-print loop.
 Run code every so often
 =======================
 
-The `luamqtt`_ documentation was enough to help me write a client in
+The `luamqtt documentation`_ was enough to help me write a client in
 Fennel that subscribes and prints messages. Then I realized I don't
 want to publish a message upon reception of each message, I want to
 absorb information and publish it on a time interval. Poking around
@@ -181,6 +181,8 @@ some, I found that the ioloop provided by luamqtt is rudimentary, and
 while it's easy to get my own function in there and being called, it's
 not as easy to make it only run so often, without taking 100% CPU
 polling for whether that time has arrived yet.
+
+.. _`luamqtt documentation`: https://xhaskx.github.io/luamqtt/index.html
 
 `In the luamqtt source`_, but not in the documentation, there is an
 example that uses `copas`, another Lua module, to do non-MQTT work in
