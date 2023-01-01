@@ -27,7 +27,7 @@ through 2022, and I didn't try to make a big splash in TheHive
 Discord. I'm pretty sure I didn't even get Matrix federation working
 properly till a couple of weeks ago.
 
-.. _`my local BSides conference`: https://bsidespgh.org/
+.. _`my local BSides conference`: https://www.bsidespgh.com/
 .. _BarSides: https://barsides.com/
 
 TheHive4rk's Matrix channel was joined by a grand total of: Nabil
