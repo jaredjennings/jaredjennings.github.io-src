@@ -30,13 +30,12 @@ properly till a couple of weeks ago.
 .. _`my local BSides conference`: https://www.bsidespgh.com/
 .. _BarSides: https://barsides.com/
 
-TheHive4rk's Matrix channel was joined by a grand total of: Nabil
-Adouani. Hi Nabil! Thanks for joining. When you announced on TheHive
-Discord that TheHive5 was going closed source, you mentioned that not
-one person outside StrangeBee had contributed any code to TheHive4
-over its whole life. That cast serious doubt on the size of a
-potential TheHive4 maintenance community. I had to make sure, and in
-my own way, I did.
+On my Matrix server, I spoke with a grand total of: Nabil Adouani. Hi
+Nabil! Thanks for joining. When you announced on TheHive Discord that
+TheHive5 was going closed source, you mentioned that not one person
+outside StrangeBee had contributed any code to TheHive4 over its whole
+life. That cast serious doubt on the size of a potential TheHive4
+maintenance community. But I didn't want to take your word for it.
 
 Over 2022, besides Discord getting naggier, GitHub Copilot also kind
 of blew up, Gitea sprouted a company and was promptly forked as
