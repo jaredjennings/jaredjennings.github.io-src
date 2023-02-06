@@ -177,3 +177,60 @@ otherwise. And here are the routes I had to add to FIB 1:
 All this info will come in real handy when I reboot the jail host,
 because I haven't configured anything to run at boot time to put these
 routes in place yet. :)
+
+EDITED TO ADD:
+
+Fancy boot script
+-----------------
+
+(Real IP addresses replaced with examples.) ::
+    #!/bin/sh
+    # https://savagedlight.me/2014/03/07/freebsd-jail-host-with-multiple-local-networks/
+    # https://www.jasonvanpatten.com/2015/12/29/freebsd-jails-filesystems-and-fibs/
+    # https://j.agrue.info/freebsd-jails-and-fibs.html
+
+    . /etc/rc.conf
+    . /etc/rc.subr
+
+    #route="echo route"
+    route="route"
+
+    # FIB 1 is used for DMZ jails. Some of them talk to each other (e.g.,
+    # a web app jail talks to a database jail). They need to do this over
+    # the loopback interface. So there needs to be a route in FIB 1 for
+    # each IP address of each DMZ jail, saying to use the interface lo0.
+
+    # we are going to call iocage a lot. if it is off, avoid this.
+    if checkyesno iocage_enable; then
+      echo "rc.local adding per-jail local routes"
+      for fib_number in 1; do
+        # hmm, you know, i should skip this for vnet jails
+        for jailname in $(iocage get -H -r exec_fib | awk "\$2==${fib_number} { print \$1 }"); do
+          # for each ip6_addr in e.g. vldmz|2001:db8:.../64,vldmz|fdff:db8:.../64
+          ip6av=$(iocage get -H ip6_addr $jailname)
+          if [ "$ip6av" != "none" ]; then
+            for ip6_addr in $(echo $ip6av | tr ',' '\n' | sed 's/^.*|//; s,/[0-9]*$,,'); do
+              $route -6 add -host $ip6_addr -iface lo0 -fib $fib_number
+            done
+          fi
+          # similarly with ip4_addr e.g. vldmz|192.0.2.4/24,vldmz|192.0.2.2/24
+          ip4av=$(iocage get -H ip4_addr $jailname)
+          if [ "$ip4av" != "none" ]; then
+            for ip4_addr in $(echo $ip4av | tr ',' '\n' | sed 's/^.*|//; s,/[0-9]*$,,'); do
+              $route add -host $ip4_addr -iface lo0 -fib $fib_number
+            done
+          fi
+        done
+      done
+    else
+      echo "rc.local not adding per-jail local routes: iocage_enabled is off"
+    fi
+
+    $route -6 add -net fdff:db8::/64 -iface vldmz -fib 1
+    $route -6 add -net 2001:db8::/64 -iface vldmz -fib 1
+    $route -6 add -net fe80::%vldmz/64 -iface vldmz -fib 1
+    $route add -net 192.0.2.0/24 -iface vldmz -fib 1
+
+    $route -6 add default fdff:db8::1 -fib 1
+    $route -6 add default 2001:db8::1 -fib 1
+    $route add default 192.0.2.1 -fib 1
