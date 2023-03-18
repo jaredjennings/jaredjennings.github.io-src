@@ -42,6 +42,6 @@ decentralized: like `OpenBadges`_, but for container images not
 people. (This paragraph has been brought to you by cryptographic
 hashes and digital certificates.)
 
-.. _`use IPFS`: https://github.com/ipdr/ipdr
+.. _`use IPFS?`: https://github.com/ipdr/ipdr
 .. _`signed`: https://www.sigstore.dev/
 .. _`OpenBadges`: https://openbadges.org/
