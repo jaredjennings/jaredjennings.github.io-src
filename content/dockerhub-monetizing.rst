@@ -25,7 +25,7 @@ tool after that of course had to work like ``docker`` for all the
 preexisting cases; but we could have had a linter somewhere that would
 urge you to use real URLs.
 
-.. _`fleeing GitHub`: https://sfconservancy.org/blog/2022/jun/30/give-up-github-launch/
+.. _`giving up GitHub`: https://sfconservancy.org/blog/2022/jun/30/give-up-github-launch/
 
 And where people are building tools that take `username/reponame` and
 assume it means https://github.com/username/reponame, when those
