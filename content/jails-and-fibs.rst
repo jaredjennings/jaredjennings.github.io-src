@@ -184,6 +184,7 @@ Fancy boot script
 -----------------
 
 (Real IP addresses replaced with examples.) ::
+    
     #!/bin/sh
     # https://savagedlight.me/2014/03/07/freebsd-jail-host-with-multiple-local-networks/
     # https://www.jasonvanpatten.com/2015/12/29/freebsd-jails-filesystems-and-fibs/
